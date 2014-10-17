@@ -16,9 +16,20 @@ describe('rpsJava',function(){
 		});
 	});
 	describe('the rules are set up so that',function(){
+		beforeEach(function(){
+				rpsJava = new RpsJava
+		});
 		it('rock vs rock returns a draw',function(){
-			rpsJava = new RpsJava
-			expect(rpsJava.outcome(rock,rock)).toEqual('draw')
+			expect(rpsJava.winner(rock,rock)).toEqual('draw')
+		});
+		it('rock vs scissors returns rock',function(){
+			expect(rpsJava.winner(rock,scissors)).toEqual('rock')
+		});
+			it('rock vs paper returns paper',function(){
+			expect(rpsJava.winner(rock,paper)).toEqual('paper')
+		});
+			it('scissors vs paper returns paper',function(){
+			expect(rpsJava.winner(scissors,paper)).toEqual('scissors')
 		});
 	});
 });
