@@ -14,7 +14,7 @@ function Scissors () {
 };
 
 function RpsJava () {
-	RpsJava.prototype.winner = function(choiceOne, choiceTwo) {
+	RpsJava.prototype.whoWon = function(choiceOne, choiceTwo) {
 		if(choiceOne.type === choiceTwo.type) return 'draw';
 		if(choiceOne.weakness === choiceTwo.type) return choiceTwo.type;
 		else return choiceOne.type;
