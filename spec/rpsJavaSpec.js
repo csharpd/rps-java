@@ -20,16 +20,16 @@ describe('rpsJava',function(){
 				rpsJava = new RpsJava
 		});
 		it('rock vs rock returns a draw',function(){
-			expect(rpsJava.winner(rock,rock)).toEqual('draw')
+			expect(rpsJava.whoWon(rock,rock)).toEqual('draw')
 		});
 		it('rock vs scissors returns rock',function(){
-			expect(rpsJava.winner(rock,scissors)).toEqual('rock')
+			expect(rpsJava.whoWon(rock,scissors)).toEqual('rock')
 		});
 			it('rock vs paper returns paper',function(){
-			expect(rpsJava.winner(rock,paper)).toEqual('paper')
+			expect(rpsJava.whoWon(rock,paper)).toEqual('paper')
 		});
 			it('scissors vs paper returns paper',function(){
-			expect(rpsJava.winner(scissors,paper)).toEqual('scissors')
+			expect(rpsJava.whoWon(scissors,paper)).toEqual('scissors')
 		});
 	});
 });
