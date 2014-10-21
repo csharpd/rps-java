@@ -6,9 +6,6 @@
 
 ![](public/images/screenshot.png)
 
-## Deployed
-Check it out on [Heroku]()
-
 ## Technologies Used
 
 * Javascript
