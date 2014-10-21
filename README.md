@@ -1,7 +1,7 @@
 # Rock_Paper_Scissors_Javascript
 
-
-TDD  Rock Paper Scissors game with Jasmine and Javascript. Used JQuery, SASS & HAML on the presentation layer. Compiled with Grunt.
++TDD  Rock Paper Scissors game with Jasmine and Javascript.+ Used JQuery, SASS & HAML on the presentation layer.
++ Compiled with Grunt.
 
 ![](public/images/screenshot.png)
 
