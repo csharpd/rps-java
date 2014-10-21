@@ -7,9 +7,12 @@
 			%header
 				%h1
 					ROCK. PAPER. SCISSORS
-				%h2
-					Make your choice
 			%section.images
-				%img{:alt => "Rock", :src => "images/rock.jpg"}/
-				%img{:alt => "Paper", :src => "images/paper.jpg"}/
-				%img{:alt => "Scissors", :src => "images/scissors.jpg"}/
+				%img#rock{:alt => "Rock", :src => "images/rock.jpg"}/
+				%img#paper{:alt => "Paper", :src => "images/paper.jpg"}/
+				%img#scissors{:alt => "Scissors", :src => "images/scissors.jpg"}/
+			%h2
+				Make your choice
+			%script{:src => "js/jquery-2.1.1.min.js"}
+			%script{:src => "js/rpsJava.js"}
+			%script{:src => "js/rpsUi.js"}
