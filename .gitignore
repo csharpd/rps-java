@@ -1,6 +1,5 @@
 node_modules/**
 .DS_Store
-public/js/*.js
 public/index.html
 public/css/*.css
 .sass-cache/**
