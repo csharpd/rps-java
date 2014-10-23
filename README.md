@@ -6,6 +6,8 @@
 
 ![](public/images/screenshot.png)
 
+## Deployed
+View [here] (https://javarps.herokuapp.com/)
 ## Technologies Used
 
 * Javascript
